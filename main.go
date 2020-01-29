@@ -29,23 +29,23 @@ func generteRandom (end int) int{
 	return x
 }
 
-// func calcPythog (h, k int) float64{
-// 	/*
-// 	function to calculate the posible c value of our Pythog struct
-// 	*/
-// 	var x pythog
-// 	x.a[0] = h
-// 	x.a[1] = k
-// 	a := float64(x.a[0])
-// 	b := float64(x.a[1])
-// 	c := math.Pow(a, 2.0)
-// 	d := math.Pow(b, 2.0)
-// 	e := c + d
-// 	x.a[2] =int(math.Sqrt(e))
-// 	x.sum = 0
-// 	for _, i := range x.a{
-// 		x.sum += float64(i)
-// 	}
-// 	return x.sum
+func calcPythog (h, k int) float64{
+	/*
+	function to calculate the posible c value of our Pythog struct
+	*/
+	var x pythog
+	x.a[0] = h
+	x.a[1] = k
+	a := float64(x.a[0])
+	b := float64(x.a[1])
+	c := math.Pow(a, 2.0)
+	d := math.Pow(b, 2.0)
+	e := c + d
+	x.a[2] =int(math.Sqrt(e))
+	x.sum = 0
+	for _, i := range x.a{
+		x.sum += float64(i)
+	}
+	return x.sum
 
-// }
+}
