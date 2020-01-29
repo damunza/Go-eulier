@@ -7,7 +7,7 @@ import (
 	"math"
 )
 // dont use caps in describing types unless they are to be exported 
-type pythog struct{
+type Pythog struct{
 	a [3] int
 	sum float64
 }
@@ -33,7 +33,7 @@ func calcPythog (h, k int) float64{
 	/*
 	function to calculate the posible c value of our Pythog struct
 	*/
-	var x pythog
+	var x Pythog
 	x.a[0] = h
 	x.a[1] = k
 	a := float64(x.a[0])
