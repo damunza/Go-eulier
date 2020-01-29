@@ -12,12 +12,12 @@ type pythog struct{
 	sum float64
 }
 
-// func main(){
-// 	if calcPythog(generteRandom(1000),generteRandom(1000)) == 1000.0{
+func main(){
+	if calcPythog(generteRandom(1000),generteRandom(1000)) == 1000.0{
 
-// 	}
+	}
 	
-// }
+}
 
 func generteRandom (end int) int{
 	/*
