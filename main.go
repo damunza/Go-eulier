@@ -7,10 +7,10 @@ import (
 	"math"
 )
 // dont use caps in describing types unless they are to be exported 
-// type pythog struct{
-// 	a [3] int
-// 	sum float64
-// }
+type pythog struct{
+	a [3] int
+	sum float64
+}
 
 // func main(){
 // 	if calcPythog(generteRandom(1000),generteRandom(1000)) == 1000.0{
